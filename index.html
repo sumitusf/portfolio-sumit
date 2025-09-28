@@ -1,1 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sumit Singh - Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #003366;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav {
+      background: #0055a5;
+      text-align: center;
+      padding: 10px;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #003366;
+      margin-top: 0;
+    }
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+    .project {
+      margin-bottom: 20px;
+    }
+    .contact a {
+      display: inline-block;
+      margin-right: 15px;
+      color: #0055a5;
+      text-decoration: none;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #003366;
+      color: #fff;
+      margin-top: 30px;
+    }
+    nav a:hover, .contact a:hover {
+      color: #ffcc00;
+      transition: 0.3s;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Sumit Kumar Singh</h1>
+  <p>Graduate Student | AI & Business Analytics | Data Science | Business Analysis</p>
+</header>
+
+<nav>
+  <a href="#about">About Me</a>
+  <a href="#projects">Projects</a>
+  <a href="#skills">Skills</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>
+    I am a graduate student in Artificial Intelligence and Business Analytics at the University of South Florida (Class of 2026).
+    My expertise spans AI research, data analysis, business intelligence, and process optimization. I have hands-on experience
+    in federated learning, deep learning, statistical modeling, dashboard development, and database systems, supported by
+    a decade of leadership in retail management. I aim to leverage technical and business expertise to drive innovation and
+    data-driven decision-making.
+  </p>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="project">
+    <h3>Federated Learning Research Study (Ongoing)</h3>
+    <p>
+      Built a Dockerized federated learning system using Flower and Weights & Biases to evaluate the impact of Differential Privacy (CDP & LDP) on model performance. 
+      Partitioned the DeepDRiD dataset into 10 non-IID clients and analyzed privacy-utility tradeoffs using CNN models.
+    </p>
+  </div>
+
+  <div class="project">
+    <h3>Medical Diagnosis Through Spectroscopy (Spring 2025)</h3>
+    <p>
+      Developed a CNN-based model to classify respiratory anomalies from lung sound spectrograms (92% accuracy). 
+      Integrated Grad-CAM++ for explainability to improve clinical trust and interpretability.
+    </p>
+  </div>
+
+  <div class="project">
+    <h3>Multivariate Time Series Forecasting with RNN (Spring 2025)</h3>
+    <p>
+      Implemented an RNN model using PyTorch to forecast daily max temperature using past weather variables. 
+      Tracked training and evaluation metrics with Weights & Biases.
+    </p>
+  </div>
+
+  <div class="project">
+    <h3>Generating Architectural Floor Plans with Hugging Face Diffusers (Spring 2025)</h3>
+    <p>
+      Designed a text-to-image pipeline using Stable Diffusion to generate architectural floor plans from natural language prompts. 
+      Experimented with scheduler configurations to optimize realism and spatial accuracy.
+    </p>
+  </div>
+
+  <div class="project">
+    <h3>Hospital Management Database (Fall 2024)</h3>
+    <p>
+      Created an MSSQL database to manage nurse assignments, patient admissions, bed allocation, and treatments. 
+      Built ER diagrams, data models, and automated reports for real-time hospital insights.
+    </p>
+  </div>
+
+  <div class="project">
+    <h3>Retail Sales Performance Dashboards</h3>
+    <p>
+      Designed Power BI and Excel dashboards for tracking sales KPIs, analyzing footfall patterns, and optimizing promotional strategies. 
+      Enabled self-service analytics for stakeholders, increasing conversion rates by 18–45%.
+    </p>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <ul>
+    <li><strong>Programming & Data Analysis:</strong> Python (Pandas, NumPy, Scikit-learn, PyTorch), R, SQL, Java</li>
+    <li><strong>Machine Learning & Deep Learning:</strong> Regression, Classification, CNN, RNN, XGBoost, Explainable AI (Grad-CAM++)</li>
+    <li><strong>Privacy-Preserving AI:</strong> Federated Learning (Flower), Differential Privacy (ε, δ-DP), Docker, Secure Aggregation</li>
+    <li><strong>Databases & Big Data:</strong> MySQL, PostgreSQL, MS-SQL, Cassandra, Snowflake, Hive, MongoDB, Spark, Hadoop</li>
+    <li><strong>Visualization & BI:</strong> Tableau, Power BI, Excel (Advanced), Matplotlib, R Studio, Google Analytics</li>
+    <li><strong>Business Analysis Tools:</strong> JIRA, Confluence, Visio, Process Mapping, UAT Coordination</li>
+    <li><strong>Other Tools:</strong> Jupyter Notebook, Microsoft Office Suite</li>
+  </ul>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:sumit-singh@hotmail.com">sumit-singh@hotmail.com</a></p>
+  <a href="https://www.linkedin.com/in/sumit-kumar-singh-26432833/" target="_blank">LinkedIn</a>
+  <a href="https://github.com/sumitusf" target="_blank">GitHub</a>
+</section>
+
+<footer>
+  <p>&copy; 2025 Sumit Kumar Singh | Portfolio</p>
+</footer>
+
+</body>
+</html>
 
